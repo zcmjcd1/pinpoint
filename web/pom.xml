@@ -462,6 +462,15 @@
                         </configuration>
                     </execution>
                     <execution>
+                    	<id>npm cache clean</id>
+                        <goals>
+                            <goal>npm</goal>
+                        </goals>
+                        <configuration>
+                            <arguments>cache clean</arguments>
+                        </configuration>
+                    </execution>
+                    <execution>
                         <id>npm install</id>
                         <goals>
                             <goal>npm</goal>
