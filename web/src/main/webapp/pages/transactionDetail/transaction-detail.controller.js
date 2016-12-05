@@ -117,12 +117,12 @@
 	        	}
 	        };
 	        $scope.viewLog = function( url ) {
-	        	if ( $scope.loggingTransactionInfo === false ) {
-	        		$("#customLogPopup").find("h4").html("Notice").end().find("div.modal-body").html( $scope.logDisableMessage ).end().modal("show");
-	        		return false;
-	        	} else {
+//	        	if ( $scope.loggingTransactionInfo === false ) {
+//	        		$("#customLogPopup").find("h4").html("Notice").end().find("div.modal-body").html( $scope.logDisableMessage ).end().modal("show");
+//	        		return false;
+//	        	} else {
 	        		window.open(url);
-	        	}
+//	        	}
 	        };
 	        $scope.$watch( "searchMinTime", function( newVal ) {
 	        	$scope.calltreeSearchIndex = 0;
